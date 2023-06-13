@@ -5,7 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+  background-image: url(C:\Users\juana\OneDrive\Escritorio\rick_and_morty\rick_and_morty\src\2880737.png);
+  background-size: 100%
+};
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
