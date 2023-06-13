@@ -1,0 +1,12 @@
+.cards_container{
+    display: flex;
+    /* padding: 15px; */
+    background-color: antiquewhite;
+}
+
+.card{
+    background-color: blanchedalmond;
+    color: blue;
+    align-items: center;
+    text-align: center;
+}
