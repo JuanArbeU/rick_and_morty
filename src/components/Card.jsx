@@ -5,10 +5,10 @@ export default function Card({id, name, gender, species, origin, image, status, 
       <div className='card'>
          <button onClick = {() => onClose(id)}>X</button>
          <h2>{name}</h2>
-         <h2>{status}</h2>
-         <h2>{species}</h2>
-         <h2>{gender}</h2>
-         <h2>{origin}</h2>
+         <h3>{status}</h3>
+         <h3>{species}</h3>
+         <h3>{gender}</h3>
+         <h3>{origin}</h3>
          <img src={image} alt={name} /> 
       </div>
    );

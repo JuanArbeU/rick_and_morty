@@ -1,10 +1,18 @@
 .card{
-    border: 8px solid rgb(24, 22, 23);
+    margin:0 1rem;
+    box-shadow:0 0 7px #fff,
+    0 0 15px #fff,
+    0 0 30px #fff,
+    0 0 15px #0fa,
+    0 0 20px #0fa,
+    0 0 20px #0fa,
+    0 0 20px #0fa,
+    0 0 60px #0fa;;
     border-radius: 25px;
-    width: 22%;
+    width: 30rem;
 }
-
 img{
-    width: 100%;
+    width: 90%;
     border-radius: 1250px;
+    padding-bottom: 3%;
 }

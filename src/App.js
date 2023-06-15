@@ -45,8 +45,11 @@ function App() {
 
    return (
       <div className='App'>
-         <div>Bienvenidos!</div>
-         <br></br>
+         <div class="container">
+            <h1 class="neonText">
+            Bienvenido!
+            </h1>
+      </div>
          <Nav onSearch = {onSearch}/> {/* EN LLAVES PORQUE ES CODIGO JS */}
          <Cards characters={characters} onClose={onClose} />
       </div>
