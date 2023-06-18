@@ -1,0 +1,11 @@
+.detalle{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+}
+.foto{
+    width: 20%;
+}
+.texto{
+  color: aliceblue;
+}

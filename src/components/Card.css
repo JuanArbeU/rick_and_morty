@@ -16,3 +16,6 @@ img{
     border-radius: 1250px;
     padding-bottom: 3%;
 }
+.card-name{
+    text-decoration: none;
+}

@@ -1,0 +1,16 @@
+
+.textAbout{
+    line-height: 2em;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 3rem;
+    color: #fff;
+    margin-left: 24%;
+    margin-right: 24%;
+}
+.extraBold{
+    font-weight:bold;
+}

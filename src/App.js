@@ -3,8 +3,11 @@ import Cards from './components/Cards.jsx';
 import Nav from './components/Nav';
 import { useState } from 'react';
 import axios from 'axios';
+import { Routes, Route } from 'react-router-dom';
+import About from './components/About';
+import Detail from './components/Detail';
 
-const example = {
+/* const example = {
    id: 1,
    name: 'Rick Sanchez',
    status: 'Alive',
@@ -15,7 +18,7 @@ const example = {
       url: 'https://rickandmortyapi.com/api/location/1',
    },
    image: 'https://rickandmortyapi.com/api/character/avatar/1.jpeg',
-};
+}; */
 
 function App() {
 
@@ -42,17 +45,23 @@ function App() {
       setCharacters(charactersFiltered)
    }
    
-
+   
    return (
-      <div className='App'>
-         <div class="container">
-            <h1 class="neonText">
-            Bienvenido!
-            </h1>
-      </div>
-         <Nav onSearch = {onSearch}/> {/* EN LLAVES PORQUE ES CODIGO JS */}
-         <Cards characters={characters} onClose={onClose} />
-      </div>
+      <>
+         <div className='App'>
+            <style>
+               @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+            </style>
+               <h1 rel= ''className="neonText">Rick & Morty</h1>
+            <Nav class = 'buscar' onSearch = {onSearch}/>
+         </div>
+         <Routes>
+            <Route className='boton1' path='/about' element={<About/>}/>
+            <Route path='/home' element={<Cards characters={characters} onClose={onClose}/>}/>
+            <Route path='/detail/:id' element={<Detail/>}/>
+         </Routes>
+            
+      </>
    );
 }
 
