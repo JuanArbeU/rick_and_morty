@@ -1,13 +1,22 @@
 .cards_container{
-    margin-top: 3rem;
-    display: flex;
-    /* padding: 15px; */
-    /* background-color: antiquewhite */;
+/*     margin-top: 3rem;
+    padding: 15px; */
+    /* background-color: antiquewhite */
+    align-items: center;
+    float: left;
+    flex: 1;
 }
 
 .card{
-    background-color: rgba(211, 172, 114, 0.612);
-    color: rgb(255, 255, 255);
-    align-items: center;
+
+  /*   background-color: rgba(211, 172, 114, 0.612); */
+/*     color: rgb(255, 255, 255); */
+/*     float: left; */
+/*     flex: 1; */
+/*     margin: 0.1rem; */
+    margin-top: 3rem;
     text-align: center;
+    align-items: center;
+    width: auto;
+    margin-left: 2.5rem;
 }

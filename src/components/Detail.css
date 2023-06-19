@@ -1,11 +1,38 @@
 .detalle{
+    margin-top: 3rem;
+    margin-right: 21rem;
     display: flex;
-    align-items: baseline;
+    align-items: flex-start;
     justify-content: space-evenly;
 }
 .foto{
-    width: 20%;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 500px;
 }
 .texto{
+  margin-left: 19rem;
   color: aliceblue;
+  text-align: left;
+  font-size: 1.8rem;
+}
+.lista{
+  flex: 1;
+  padding-right: 1rem;
+}
+.lista ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.lista li {
+  list-style-type: none;
+}
+.texto1{
+  margin-left: 19rem;
+  color: aliceblue;
+  text-align: left;
+  font-size: 2.5rem;
+  text-transform: uppercase;
 }

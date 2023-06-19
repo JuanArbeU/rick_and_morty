@@ -4,6 +4,7 @@
     align-items: baseline;
     justify-content: center;
     gap: 25px;
+    margin-bottom: 0rem;
 }
 .boton1{
     font-family: 'Montserrat', sans-serif;
@@ -41,4 +42,26 @@
 }
 .boton2:hover{
     color:#fff;
+}
+.boton3{
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 0.5rem;
+    background-color: aqua;
+    width: 4rem;
+    height: 1rem;
+    border-width: 0px;
+    color: black;
+}
+.boton3:hover{
+    background-color: rgb(0, 255, 72);
+        box-shadow:
+    0 0 1px #fff,
+    0 0 5px #fff,
+    0 0 15px #fff,
+    0 0 15px #0fa,
+    0 0 15px #0fa,
+    0 0 20px #0fa,
+    0 0 30px #0fa,
+    0 0 300px #0fa;
+    color: #fff;
 }

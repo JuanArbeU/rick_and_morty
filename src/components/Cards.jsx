@@ -4,7 +4,7 @@ import './Cards.css';
 export default function Cards({characters, onClose}) {
    console.log(characters);
    return (
-   <div className='cards_container'>
+   <div className='card_container'>
       {characters && characters.map((char, index)=>{
             return <Card 
                key = {index}

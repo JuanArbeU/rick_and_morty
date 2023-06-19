@@ -1,21 +1,36 @@
 .card{
-    margin:0 1rem;
-    box-shadow:0 0 7px #fff,
+    text-align: center;
+    margin-left: 3rem;
+    margin: 0rem;
+    background-color: aqua;
+    /* box-shadow:0 0 7px #fff,
     0 0 15px #fff,
     0 0 30px #fff,
     0 0 15px #0fa,
     0 0 20px #0fa,
     0 0 20px #0fa,
     0 0 20px #0fa,
-    0 0 60px #0fa;;
+    0 0 60px #0fa;; */
     border-radius: 25px;
-    width: 30rem;
+/*     width:16rem; */
+    float:left;
+    flex: 1;
+    margin-bottom: -1rem;
 }
-img{
-    width: 90%;
-    border-radius: 1250px;
-    padding-bottom: 3%;
+.img{
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: -2%;
+    height: 190px;
+    width: 210px;
+/*     width: 16rem; */
+    
 }
 .card-name{
+    text-align: center;
     text-decoration: none;
+    margin-top: 0.5em;
+    margin-bottom: 0.6em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
 }
