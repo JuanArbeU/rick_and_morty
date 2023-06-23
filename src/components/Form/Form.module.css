@@ -1,0 +1,8 @@
+.container{
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+}
+.error{
+    color: aliceblue;
+}

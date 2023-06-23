@@ -1,0 +1,5 @@
+.cards_container{
+    align-items: center;
+    float: left;
+    flex: 1;
+}
