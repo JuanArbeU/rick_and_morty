@@ -2,7 +2,7 @@ import Card from '../Card/Card';
 import style from './Cards.module.css';
 
 export default function Cards({characters, onClose}) {
-   console.log(characters);
+   //console.log(characters);
    return (
    <div className={style.card_container}>
       {characters && characters.map((char, index)=>{

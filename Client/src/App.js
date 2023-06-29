@@ -17,7 +17,7 @@ function App() {
    const PASSWORD = 'juan1992'
 
    const login = (userData) => {
-      if(userData.password === PASSWORD && userData.email === EMAIL){
+      if(userData.password === PASSWORD && userData.email === EMAIL){ // TERNARIO es como if/else
          setAccess(true);
          navigate('/home');
       }
@@ -31,7 +31,7 @@ function App() {
    const [characters, setCharacters] = useState([]);
 
    const onSearch = (id) => {
-      axios(`https://rickandmortyapi.com/api/character/${id}`) //TEMPLATE STRINGS CONCATENANDO EL PARAMETRO ID QUE VIENE DESDE EL USUARO EN SEARCHBAR.
+      axios(`http://localhost:3001/rickandmorty/character/${id}`) //TEMPLATE STRINGS CONCATENANDO EL PARAMETRO ID QUE VIENE DESDE EL USUARO EN SEARCHBAR.
       .then(({ data }) => { // Axios retorna un objeto gigante, hay que hacerle destructuring para quedarme con solo la data.
          if (data.name) {
             setCharacters((oldChars) => [...oldChars, data]);
