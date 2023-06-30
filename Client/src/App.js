@@ -33,8 +33,9 @@ function App() {
    const onSearch = (id) => {
       axios(`http://localhost:3001/rickandmorty/character/${id}`) //TEMPLATE STRINGS CONCATENANDO EL PARAMETRO ID QUE VIENE DESDE EL USUARO EN SEARCHBAR.
       .then(({ data }) => { // Axios retorna un objeto gigante, hay que hacerle destructuring para quedarme con solo la data.
+         console.log(data);
          if (data.name) {
-            setCharacters((oldChars) => [...oldChars, data]);
+             setCharacters((oldChars) => [...oldChars, data]);
          
          // } else if(characters.id === Number(id)){
          //    alert('Personaje repetido')
