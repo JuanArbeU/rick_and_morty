@@ -12,18 +12,19 @@ import { useLocation } from 'react-router-dom';
 
 const Nav = ({onSearch}) => {
   const location = useLocation()
-  if(location.pathname === '/') return 
+  if(location.pathname !== '/')  
     return(
       <>
         <div className={style.container}>
               <button className={style.boton1}>
-                <Link className={style.boton2} to='/about'>
-                  <strong>About</strong>
-                  </Link>
+                <Link className={style.boton2} to='/about'><strong>About</strong></Link>
                 </button>
               <button className={style.boton1}>
                 <Link className={style.boton2} to='/home'><strong>Home</strong></Link>
                 </button>
+              <button className={style.boton1}>
+              <Link className={style.boton2} to='/favorites'><strong>Favorites</strong></Link>
+              </button>
             <SearchBar onSearch={onSearch}/>  
           </div>
       </>
