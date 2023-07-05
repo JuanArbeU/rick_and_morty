@@ -25,7 +25,7 @@ function App() {
          access && navigate('/home');
       });
    }
-   
+    
    useEffect(() => {
       !access && navigate('/');
    },[access, navigate]);
